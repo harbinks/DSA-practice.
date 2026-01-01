@@ -28,7 +28,6 @@ class Solution(object):
         return max_len
 
 
-# Optional: local testing (VS Code friendly)
 if __name__ == "__main__":
     sol = Solution()
     print(sol.lengthOfLongestSubstring("abcabcbb"))  # 3
