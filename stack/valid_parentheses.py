@@ -17,4 +17,9 @@ class Solution(object):
 
         return not stack
 
+if __name__ == "__main__":
+    sol = Solution()
+    tests = ["()", "()[]{}", "(]", "([)]", "{[]}", "((("]
+    for t in tests:
+        print(t, "->", sol.isValid(t))
 
